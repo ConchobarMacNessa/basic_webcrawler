@@ -17,8 +17,8 @@ Before running this crawler, ensure you have installed the correct dependencies 
 
 ## Running the Webcrawler
 This project is run by executing the executable python file `crawler.py`, which takes in a url with `-u` and an optional depth with `-u`.
-An example of running this is run the following command in this directory:
-`./crawler.py -u 'https://monzo.com' -d 5`
+An example of running this would be to run the following command in this directory:
+`./crawler.py -u 'https://en.wikipedia.org' -d 5`
 
 After this has finished running, it will print out the sitemap in the terminal - however, a lot of sites will produce a huge sitemap, which might not all be visible in the terminal. To overcome this, the sitemap will also be written into the `output.json` file in this directory. This will be overwritten every time you generate a new sitemap.
 
